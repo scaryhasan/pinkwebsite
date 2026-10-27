@@ -21,12 +21,19 @@ no.addEventListener("click", function () {
     document.body.innerHTML = `
         <main class="thank-you">
             <div class="emoji">💌</div>
-            <h1>Thank you 💗</h1>
+            <h1>Thank you 🥳</h1>
             <p>
-                I wish you all the happiness in the world.
-                Take care of yourself, pookie. 🥹
+                yes! not gonna happen. pookie. 🥹
             </p>
-            <div class="big-heart">❤️</div>
+
+            <video
+                class="reaction-gif"
+                autoplay
+                loop
+                muted
+                playsinline>
+                <source src="orange-cat-laughing.mp4" type="video/mp4">
+            </video>
         </main>
     `;
 });
