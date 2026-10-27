@@ -201,3 +201,12 @@ button {
         transform: scale(1.2);
     }
 }
+
+.reaction-gif {
+    display: block;
+    width: 100px;
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px;
+}
